@@ -14,7 +14,7 @@ namespace ConsoleApp1
             Console.WriteLine(a);
             Console.WriteLine(a + 3);
             int b = int.MinValue;
-            Console.WriteLine(b);
+            Console.WriteLine(b); 
             
             Console.ReadLine();
             
