@@ -14,8 +14,14 @@ namespace ConsoleApp1
             Console.WriteLine(a);
             Console.WriteLine(a + 3);
             int b = int.MinValue;
-            Console.WriteLine(b); 
-            
+            Console.WriteLine(b);
+
+
+            int n ;
+            Console.WriteLine("inserisci un numeretto");
+            n=Convert.ToInt32(Console.ReadLine());
+            string binary = Convert.ToString(n, 2);
+            Console.WriteLine(binary);
             Console.ReadLine();
             
 
